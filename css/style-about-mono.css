@@ -1,0 +1,146 @@
+/*About html*/
+
+html { /*for sticky footer*/
+  position: relative;
+  min-height: 100%;
+}
+
+
+body { /*for sticky footer*/
+	margin-bottom: 30px;
+}
+
+/*Main content*/
+h1 {
+	font-size: 42px;
+}
+
+.headers { /*h1 h2 h3 etc*/
+	margin-bottom: 15px;
+}
+
+.container {
+	color: #555657;
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: #FFFFFF;
+	margin-bottom: 0px;
+	padding-left: 225px;
+	padding-right: 225px;
+}
+
+/*Links decoration*/
+
+h1 a {
+	color: #555657 !important;
+	text-decoration: none;
+}
+
+h1 a:visited {
+	color: #555657 !important;
+	text-decoration: none;
+}
+
+h1 a:hover {
+	color: #919191 !important;
+	text-decoration: none;
+}
+
+.lead a {
+	color: #919191 !important;
+	text-decoration: none;
+}
+
+.lead a:visited {
+	color: #919191 !important;
+	text-decoration: none;
+}
+
+.lead a:hover {
+	color: #555657 !important;
+	text-decoration: none;
+}
+
+.back {
+	border: 1px solid #555657;
+	width: 20%;
+	font-size: 14px;
+	font-style: italic;
+}
+
+#backhref { /*link for back button*/
+	color: #555657 !important; 
+	text-decoration: none;
+}
+
+#backhref:hover {
+	color: #919191 !important;
+	text-decoration: none;
+}
+
+/*Footer*/
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	height: 30px;
+	width: 100%;
+}
+
+#footer-text a {
+	text-decoration: none;
+	color: #555657;
+}
+
+#footer-text a:hover {
+	text-decoration: none;
+	color: #919191;
+}
+
+#footer-text {
+	margin-right: -15px;
+	padding-bottom: 10px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 12px;
+}
+
+/*SMALLER DEVICES*/
+@media(max-width: 767px) {
+	#cont {
+		padding-left: 50px;
+		padding-right: 50px;
+    }
+}
+
+@media(min-width: 768px) {
+	#cont {
+		padding-left: 50px;
+		padding-right: 50px;
+    }
+}
+
+@media(min-width: 992px) {
+	#cont {
+		padding-left: 100px;
+		padding-right: 100px;
+    }
+}
+
+@media(min-width: 1200px) {
+	#cont {
+		padding-left: 225px;
+		padding-right: 225px;
+    }
+}
+
+@media(max-width: 767px) {
+	#smallback {
+		font-size: 9px;
+    }
+    h1 {
+    	font-size: 22px;
+    }
+
+    h3 {
+    	font-size: 18px;
+    }
+}
