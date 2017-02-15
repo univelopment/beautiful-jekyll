@@ -140,10 +140,6 @@ $.getJSON("data/m2_geo.geojson", function(data) {
 
 // Manage filter control button
 window.addEventListener('load', function () {
-    // Add button title
-    var filterButton = document.getElementsByClassName('leaflet-control-layers-toggle');
-    filterButton[0].innerHTML += 'Фильтры';
-    filterButton[0].setAttribute("id", "filter-button");
     
     // Add button description
     var filterDesc = document.getElementsByClassName('leaflet-control-layers-list');
