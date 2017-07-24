@@ -175,7 +175,7 @@ for (i = 0; i < uniID.length; i++) {
 
 
 // GeoJSON layer via Jquery
-$.getJSON("data/30_01_kad_ar.geojson", function(data) {
+$.getJSON("data/24_07_kad_ar.geojson", function(data) {
   
   // Object that stores layers. Each university has its own layer
   var layerContainer = {};
